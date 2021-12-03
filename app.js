@@ -29,15 +29,15 @@ propriete2[0].innerHTML = john.prenom;
 propriete3[0].innerHTML = john.age;
 propriete4[0].innerHTML = john.sex;
 
-propriete1[1].innerHTML = steve.nom;
-propriete2[1].innerHTML = steve.prenom;
-propriete3[1].innerHTML = steve.age;
-propriete4[1].innerHTML = steve.sex;
+propriete1[1].innerHTML = dada.nom;
+propriete2[1].innerHTML = dada.prenom;
+propriete3[1].innerHTML = dada.age;
+propriete4[1].innerHTML = dada.sex;
 
 method1[0].innerHTML = john.getIdentity();
 john.getChange("John", "Doe");
 method2[0].innerHTML = john.getIdentity();
 
-method1[1].innerHTML = steve.getIdentity();
+method1[1].innerHTML = dada.getIdentity();
 dada.getChange("Olivier", "Damien");
-method2[1].innerHTML = steve.getIdentity();
+method2[1].innerHTML = dada.getIdentity();
